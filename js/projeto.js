@@ -205,7 +205,7 @@ function listar(){
     const produto = document.getElementById("frmproduto").value 
   console.log(produto)
   document.getElementById("exibeproduto").innerHTML = produto
-
+  document.getElementById("produto").appendChild(li)
 
 
 
@@ -227,4 +227,4 @@ function listar(){
 
 
 
-     //
+     //array =  let[]/////
