@@ -12,7 +12,7 @@ function login(){
 console.log(password)
 
 if(email == "login" && password == "123456" ) {
-alert("login realizado com sucesso")
+    alert("login realizado com sucesso")
 }
 else{alert("login incorreto")}
 
@@ -202,11 +202,14 @@ function groselia(){
 
 function listar(){
     
-    const produto = document.getElementById("frmproduto").value 
-  console.log(produto)
-  document.getElementById("exibeproduto").innerHTML = produto
+    let produto = document.getElementById("frmproduto").value 
+  let li = document.createElement("li")
+    
+  li.innerHTML = produto
+
   document.getElementById("produto").appendChild(li)
 
+  console.log(produto)
 
 
 }

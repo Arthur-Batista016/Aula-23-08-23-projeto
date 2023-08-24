@@ -1,0 +1,132 @@
+
+
+body{
+
+
+    margin:0px;
+    padding:0px;
+    
+    
+}
+
+#exemplo1{
+
+    background-size: cover;
+background-color: gray;
+
+border-radius: 2px;
+
+margin-left:300px;
+margin-right:300px
+
+
+}
+
+
+
+#exemplo1 h1{
+
+    margin-left: 300px;
+    font-family:Arial Black, Helvetica, sans-serif;
+}
+
+
+
+#exemplo1 h3{
+
+    margin-left: 300px;
+    font-family:Arial Black, Helvetica, sans-serif;
+}
+
+
+
+#exemplo1 input{
+
+    margin-left: 300px;
+    font-family:Arial Black, Helvetica, sans-serif;
+}
+
+
+
+#exemplo1 p{
+
+    margin-left: 300px;
+    font-family:Arial Black, Helvetica, sans-serif;
+}
+
+
+#exemplo1 button{
+
+    background-color:;
+    margin-left: 300px;
+    font-family:Arial Black, Helvetica, sans-serif;
+}
+
+
+
+
+#exemplo2{
+
+    background-size: cover;
+background-color: gray;
+
+border-radius: 2px;
+
+margin-left:300px;
+margin-right:300px
+
+}
+
+
+
+
+#exemplo2 h3{
+
+
+margin-left:300px;
+}
+
+
+#exemplo2 button{
+
+    background-size: cover;
+background-color: green;
+
+
+
+margin-left:50px;
+}
+
+
+
+#exemplo3{
+
+    background-size: cover;
+background-color: gray;
+
+border-radius: 2px;
+
+margin-left:300px;
+margin-right:300px
+
+}
+
+
+#exemplo3 input{
+
+
+
+margin-left:300px;
+margin-right:300px
+
+}
+
+
+#exemplo3 p{
+
+  
+
+margin-left:300px;
+margin-right:300px
+
+}
