@@ -59,6 +59,7 @@ margin-right:300px
 
     background-color:;
     margin-left: 300px;
+    margin-top:5px;
     font-family:Arial Black, Helvetica, sans-serif;
 }
 
@@ -93,8 +94,7 @@ margin-left:300px;
 background-color: green;
 
 
-
-margin-left:50px;
+margin-right:10px;
 }
 
 
@@ -127,6 +127,23 @@ margin-right:300px
   
 
 margin-left:300px;
-margin-right:300px
+margin-right:400px
 
 }
+
+
+
+#exemplo3 h3 {
+
+  
+  margin-right: 200px;
+    
+    }
+    
+
+
+
+    #ex1{
+
+        
+    }
