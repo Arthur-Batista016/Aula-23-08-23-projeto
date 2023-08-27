@@ -42,6 +42,7 @@ margin-right:300px
 
 #exemplo1 input{
 
+    border-radius: 5px;
     margin-left: 300px;
     font-family:Arial Black, Helvetica, sans-serif;
 }
@@ -83,8 +84,9 @@ margin-right:300px
 
 #exemplo2 h3{
 
-
+margin-top:20px;
 margin-left:300px;
+margin-bottom: 120px;
 }
 
 
@@ -93,8 +95,8 @@ margin-left:300px;
     background-size: cover;
 background-color: green;
 
-
-margin-right:10px;
+margin-bottom: 120px;
+margin-right:px;
 }
 
 
@@ -115,7 +117,7 @@ margin-right:300px
 #exemplo3 input{
 
 
-
+border-radius: 5px;
 margin-left:300px;
 margin-right:300px
 
@@ -139,6 +141,17 @@ margin-right:400px
   margin-right: 200px;
     
     }
+
+    
+.bt3{
+
+  
+    margin-right: 200px;
+      
+      
+
+
+}
     
 
 
@@ -146,4 +159,23 @@ margin-right:400px
     #ex1{
 
         
-    }
+    background-size: cover;
+    background-color: gray;
+    
+    border-radius: 2px;
+    
+
+  
+margin-left:300px;
+margin-right:300px
+}
+
+
+.ex1 input{
+
+
+
+margin-right:200px;
+
+
+}

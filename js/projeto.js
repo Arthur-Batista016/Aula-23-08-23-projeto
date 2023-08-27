@@ -171,15 +171,6 @@ console.log(resultado)
 
 
 
-
-
-
-
-
-
-
-
-
 //var=________// //nao usamos mais!!!//
 
 //let = só funciona dentro da função //
