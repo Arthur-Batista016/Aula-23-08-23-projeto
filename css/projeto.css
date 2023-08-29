@@ -7,6 +7,7 @@ body{
     padding:0px;
     
     
+    background-color:beige;
 }
 
 #exemplo1{
@@ -84,9 +85,9 @@ margin-right:300px
 
 #exemplo2 h3{
 
-margin-top:20px;
+margin-top:5px;
 margin-left:300px;
-margin-bottom: 120px;
+margin-bottom: 80px;
 }
 
 
@@ -95,8 +96,8 @@ margin-bottom: 120px;
     background-size: cover;
 background-color: green;
 
-margin-bottom: 120px;
-margin-right:px;
+margin-bottom: 80px;
+margin-left:10px;
 }
 
 
@@ -138,7 +139,7 @@ margin-right:400px
 #exemplo3 h3 {
 
   
-  margin-right: 200px;
+  margin-left: 150px;
     
     }
 
@@ -146,7 +147,7 @@ margin-right:400px
 .bt3{
 
   
-    margin-right: 200px;
+    margin-left: 300px;
       
       
 
@@ -173,9 +174,39 @@ margin-right:300px
 
 .ex1 input{
 
+border-radius: 6px;
 
-
-margin-right:200px;
+margin-left:300px;
 
 
 }
+
+
+.ex1 button{
+
+
+    
+    margin-left:300px;
+    
+    
+    }
+
+    
+.ex1 h3{
+
+
+
+    margin-left:200px;
+    
+    
+    }
+
+    
+.ex1 li{
+
+
+
+    margin-left:300px;
+    
+    
+    }

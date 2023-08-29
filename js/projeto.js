@@ -167,6 +167,9 @@ console.log(resultado)
 
 
 
+
+
+
 ///fazer o elevado///
 
 
