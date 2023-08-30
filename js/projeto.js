@@ -176,7 +176,7 @@ console.log(resultado)
 
 //var=________// //nao usamos mais!!!//
 
-//let = só funciona dentro da função //
+//let (baasicamente declarar variavel, ai inves de usar "var")= só funciona dentro da função //
 //ou//
 //const = constante, o valor nao pode ser alterado, usar quando nao for alterar valores//
 
@@ -224,4 +224,77 @@ function listar(){
 
 
 
-     //array =  let[]/////
+      //array (parecido com o vetor)= conjunto de elementos// 
+     
+    //ex: v[]={3,4,14,2}//     
+     
+       function array(){
+
+     let n = [3, 4, 5, 6, 2, 1] //variavel que igual ao conjunto de elementos//
+     console.log("esse console log mostra o array completo")
+     console.log(n)
+     console.log("esse console log mostra o primeiro array()")
+     console.log(n[0])
+     console.log("esse console mostra o undenified, no caso indice 6(inexistente)" +n[6]+" .LEGAL")
+  
+//para ver o indice va ao console e digite array dps clique na seta do array//
+//se aparecer undenified, alguma coisa deu errado//   
+      n[6] = "7"
+      console.log("esse console mostra o undenified, no caso indice 6(inexistente)" +n[6])
+     console.log("esse mostra o array completo")
+     console.log(n)
+    n.push(50)//variavel.push (valor)//
+    n.push(32)
+    n.push(33)
+    console.log("esse mostra o array completo")
+    console.log(n)
+   //estudar os n.//
+   n.pop()
+   console.log("esse mostra o array completo")
+    console.log(n)
+//n.push() e n.pop()//
+//ex push(1,2,3,7) adciona numeros em uma pilha 7,1,2,3//
+//pop ele tira o ultimo valor da pilha //
+//splice() remove um numero da pilha, o lugar onde o valor estava ficara 
+
+
+
+
+
+
+}
+
+
+function objeto(){
+    let carrinho_de_compras = []
+   // let nome= "arroz"//
+    //let preco = 9.99//
+    //let marca = "tio joão"//
+    //quero juntar tudo em um so, transformamos em objeto//
+    let produto = {
+
+         nome_prod: "arroz",
+         preco_prod: 9.99,
+         marca_prod: "tio joão"
+
+    }
+
+    carrinho_de_compras.push(produto);
+   
+    let produto2 = {
+
+        nome_prod: "feijão",
+        preco_prod: 7.35,
+        marca_prod: "namorado"
+
+   }
+
+
+
+   carrinho_de_compras.push(produto2);
+
+
+   
+     console.log(carrinho_de_compras)
+     console.log(carrinho_de_compras[0])
+    }
