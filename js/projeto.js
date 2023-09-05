@@ -298,3 +298,27 @@ function objeto(){
      console.log(carrinho_de_compras)
      console.log(carrinho_de_compras[0])
     }
+
+
+
+    function addprod(){
+
+
+   let prod = []
+    
+
+let adicionar = {
+
+    nome: document.getElementById("add"),
+    marca: document.getElementById("add"),
+    preço: parseFloat(Odocument.getElementById("add")),
+    
+
+}
+
+   prod.push(adicionar);
+
+   console.log(prod)
+
+
+    }

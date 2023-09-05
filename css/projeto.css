@@ -59,7 +59,7 @@ margin-right:300px
 
 #exemplo1 button{
 
-    background-color:;
+ 
     margin-left: 300px;
     margin-top:5px;
     font-family:Arial Black, Helvetica, sans-serif;
@@ -210,4 +210,39 @@ margin-left:300px;
     margin-left:300px;
     
     
+    }
+
+
+    .addprod{
+
+        background-size: cover;
+        background-color: gray;
+        
+        border-radius: 2px;
+        
+        margin-left:300px;
+        margin-right:300px
+        
+
+
+    }
+
+    .addprod h3{
+
+
+        margin-left:200px;
+
+    }
+
+    .addprod button{
+
+
+        margin-left:300px;
+
+    }
+
+    .addprod input{
+
+        margin-left:300px;
+
     }
