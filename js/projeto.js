@@ -301,30 +301,55 @@ function objeto(){
 
 
 
-    function addprod(){
-
-
-   let prod = []
     
-
-let adicionar = {
-
-    nome: document.getElementById("add1"),
-    marca: document.getElementById("add2"),
-    preço: parseFloat(document.getElementById("add3")),
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    function cadastrar(){
+    
+        const produto = {
 
-}
+            nome: document.getElementById("prod_nome").value,
+            marca: document.getElementById("prod_marca").value,
+            preco: document.getElementById("prod_preco").value
+            
+        }
 
-   prod.push(adicionar)
+        //precisa colocar um id na ul//
+   //criar um novo elemento li//
+   const lista_item = document.createElement("li")
+   //adicionar conteudo nesse elemento//
+   //adciona os elementos dentro do innerhtml da lista, sem especificar que tipo de elemento eles são//
+   //lista_item.innerHTML += produto.nome//
+   //lista_item.innerHTML += produto.marca//
+   //lista_item.innerHTML += produto.preco//o + esquivale a mesma coisa escrita//
    
-
-   console.log("adicionado: "+prod[0])
+   const prod_nome = document.createElement("h3")
+   const prod_preco = document.createElement("h4")
+   const prod_marca = document.createElement("p")
    
-   console.log("adicionado:"+prod[1])
+   prod_nome.innerHTML = prod.nome
+   prod_marca.innerHTML = prod.marca
+   prod_preco.innerHTML = prod.preco
+   lista_item.appendChild(prod_nome)
+   lista_item.appendChild(prod_preco)
+   lista_item.appendChild(prod_marca)
+//elementos filhos sao de uma div//
    
-   console.log("adicionado:"+prod[2])
    
+   //adicionar esse LI  no UL//
+    document.getElementById("lista_prod").appendChild(lista_item)
 
-
-}
+    console.log(produto)
+    console.log(lista_item)
+    }

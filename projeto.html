@@ -73,18 +73,35 @@
 
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div id="addprod">
 
     <h3>ADICIONAR PRODUTOS</h3>
    
    
-    NOME<input type="email" id="add1">inserir produto</input>
-    MARCA<input type="email" id="add2">inserir marca</input>
-    PREÇO<input type="email" id="add3">inserir preço</input>
+    <input type="text" nome= "prod_nome" placeholder="nome do produto" id="prod_nome"></input>
+    MARCA<input type="text" name="prod_marca" placeholder="marca do produto" id="prod_marca"></input>
+    PREÇO<input type="number" name="prod_preco" placeholder="preço" id="prod_preco"></input>
     
    
+     <input type="button" value="cadastrar produto" onclick="cadastrar()">
+      
+     <ul id="lista_prod">
 
-    <button onclick="addprod()">adicionar</button>
+      </ul>
 
 
 
