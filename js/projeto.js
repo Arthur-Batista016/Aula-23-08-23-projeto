@@ -309,16 +309,22 @@ function objeto(){
 
 let adicionar = {
 
-    nome: document.getElementById("add"),
-    marca: document.getElementById("add"),
-    preço: parseFloat(Odocument.getElementById("add")),
+    nome: document.getElementById("add1"),
+    marca: document.getElementById("add2"),
+    preço: parseFloat(document.getElementById("add3")),
     
 
 }
 
-   prod.push(adicionar);
+   prod.push(adicionar)
+   
 
-   console.log(prod)
+   console.log("adicionado: "+prod[0])
+   
+   console.log("adicionado:"+prod[1])
+   
+   console.log("adicionado:"+prod[2])
+   
 
 
-    }
+}
